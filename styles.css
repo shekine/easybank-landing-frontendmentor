@@ -1,0 +1,262 @@
+/*jshint esversion: 6 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans";
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: 300;
+}
+
+p, h6{
+  color: #000000;
+  opacity: 70%;
+}
+
+/* --------- NAVBAR ----------- */
+
+.navbar {
+  align-items: center;
+  display: flex;
+  height: 4rem;
+  padding: 0 10%;
+}
+
+.logo {
+  width: 180px;
+}
+
+.navbar-box {
+  display: flex;
+  padding: 0 11%;
+}
+
+.navbar-items {
+  line-height: 4rem;
+  padding: 0 0.5vw;
+}
+
+.navbar-items:hover {
+  border-bottom: 3px solid hsl(136, 65%, 51%);
+}
+
+.nav-invite-btn {
+  background-image: linear-gradient(-85deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  border: 0;
+  border-radius: 30px;
+  color: #ffffff;
+  height: 50px;
+  width: 180px;
+  margin-left: auto;
+}
+
+.nav-invite-btn:hover {
+  opacity: 60%;
+}
+
+/* ---------- HEADER SECTION ----------- */
+
+.header-section {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.header-wrap {
+  height: 800px;
+  padding: 0 10%;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+
+.header-wrap h1 {
+  color: hsl(233, 26%, 24%);
+  margin: 0;
+  font-size: 5rem;
+  padding-top: 20%;
+  width: 80%;
+}
+
+.header-wrap p {
+  font-size: 18px;
+  line-height: 4vh;
+  width: 75%;
+  padding: 5% 0;
+}
+
+.header-text {
+  width: 50%;
+}
+
+.header-img {
+  width: 900px;
+  position: absolute;
+  top: -5rem;
+  right: -10rem;
+}
+
+.background-design {
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 80%;
+}
+
+
+/* ---------------- Middle Section --------------- */
+
+.middle {
+  background-color: #e6e6e6;
+  padding: 5% 10%;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-head {
+  line-height: 2rem;
+  margin-bottom: 6vh;
+  width: 40%;
+}
+
+.middle-head h2 {
+  margin-bottom: 3vh;
+}
+
+.flex {
+  width: 18vw;
+}
+
+.flex h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+/* ---------- Bottom Section ---------- */
+
+.bottom {
+  background-color: hsl(0, 0%, 95%);
+  padding: 5% 10%;
+}
+
+.bottom h2 {
+  margin: 1vh 0 5vh 0;
+}
+
+.article {
+  background-color: #ffffff;
+  padding-bottom: 3%;
+}
+
+.article img {
+  height: 23vh;
+  width: 18vw;
+}
+
+.article-text {
+  padding: 0 15%;
+}
+
+.article-text h5 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.article-text h5:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+/* ---------- Footer Section ----------- */
+
+.footer {
+  background-color: hsl(233, 26%, 24%);
+  color: #ffffff;
+  height: 18vh;
+  padding: 4vh 10vw;
+  position: relative;
+}
+
+.footer-buttons {
+  display: inline-grid;
+  height: 9vh;
+  width: 80vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 0.5fr 0.5fr;
+}
+
+.grid {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  /* margin: 2vh 1vw; */
+}
+
+.grid:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.icons {
+  margin: 0 0.5vw;
+}
+
+.footer-logo {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.footer-socials {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.item-1 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.item-2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.item-3 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.item-4 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.item-5 {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.item-6 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.footer-btn {
+  position: absolute;
+  right: 10vw;
+  top: 5vh;
+}
+
+.copyright {
+  color: #ffffff;
+  opacity: 50%;
+  text-align: right;
+  margin: 0;
+}
